@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import './App.scss';
+import './App.css';
 import Container from 'react-bootstrap/Container';
 import Feed from './components/Feed';
 
-const app = initializeApp(firebaseConfig);
 class App extends Component {
   render() {
   return (
