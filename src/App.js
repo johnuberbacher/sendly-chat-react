@@ -3,6 +3,7 @@ import './App.scss';
 import Container from 'react-bootstrap/Container';
 import Feed from './components/Feed';
 
+const app = initializeApp(firebaseConfig);
 class App extends Component {
   render() {
   return (
