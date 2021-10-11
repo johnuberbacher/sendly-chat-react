@@ -15,7 +15,7 @@ import ChatMembersList from './ChatMembersList';
 import ChatFeed from './ChatFeed';
 import SignOut from './SignOut';
 
-class Feed extends React.Component {
+class Chat extends React.Component {
   render() {
     return (
       <Row className="h-md-100 gx-0 align-items-stretch">
@@ -67,4 +67,4 @@ class Feed extends React.Component {
 
 }
 
-export default Feed;
+export default Chat;
