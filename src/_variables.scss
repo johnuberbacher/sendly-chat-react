@@ -1,11 +1,10 @@
 $theme-colors: (
-    "primary": #277fea,
+    "primary": #007bff,
     "light": #f5f7fb,
     "info": tomato,
     "danger": teal
 );
-
-$primary: #277fea;
+$min-contrast-ratio: 3;
 $body-bg: #f5f7fb;
 $font-size-base: .9375rem;
 $border-radius: 1rem;

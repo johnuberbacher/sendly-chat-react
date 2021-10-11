@@ -30,7 +30,7 @@ function ChatInput() {
           <a href="#" className="btn btn-light rounded-circle btn-send d-flex align-items-center justify-content-center position-relative">
             <BiSmile onClick={() => setShowEmojis(!showEmojis)} className="text-primary" size=" bx-sm"/>
             {showEmojis && (
-              <div className="position-absolute bottom-0 end-0">
+              <div className="position-absolute d-flex bottom-0 end-0 me-2 mb-2 shadow">
                 <Picker onSelect={addEmoji} />
               </div>
             )}
